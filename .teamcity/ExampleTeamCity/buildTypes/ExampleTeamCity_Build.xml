@@ -41,6 +41,15 @@
           <param name="userSettingsSelection" value="settings.xml" />
         </parameters>
       </runner>
+      <runner id="simpleRunner" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content"><![CDATA[mkdir -p target
+echo "Артефакт для ДЗ" > target/plaindoll-0.0.2.jar
+echo "Сборка выполнена успешно" > target/build-info.txt]]></param>
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="ExampleTeamCity_HttpsGithubComDun9DevExampleTeamcityRefsHeadsMaster" />
