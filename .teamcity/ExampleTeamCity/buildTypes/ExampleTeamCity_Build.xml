@@ -43,7 +43,7 @@
           <param name="plugin.docker.imageId" value="" />
           <param name="plugin.docker.imagePlatform" value="" />
           <param name="plugin.docker.run.parameters" value="" />
-          <param name="teamcity.step.mode" value="default" />
+          <param name="teamcity.step.mode" value="execute_if_failed" />
           <param name="teamcity.step.phase" value="" />
         </parameters>
       </runner>
