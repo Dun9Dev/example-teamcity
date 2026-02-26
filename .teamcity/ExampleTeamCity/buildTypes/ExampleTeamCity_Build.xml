@@ -37,6 +37,16 @@
           <param name="userSettingsSelection" value="settings.xml" />
         </parameters>
       </runner>
+      <runner id="tc_recipe_jetbrains_publish_artifacts_1_0_1" name="" type="tc:recipe:jetbrains/publish-artifacts@1.0.1">
+        <parameters>
+          <param name="env.input_path_to_publish" value="target/*.jar" />
+          <param name="plugin.docker.imageId" value="" />
+          <param name="plugin.docker.imagePlatform" value="" />
+          <param name="plugin.docker.run.parameters" value="" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="teamcity.step.phase" value="" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="ExampleTeamCity_HttpsGithubComDun9DevExampleTeamcityRefsHeadsMaster" />
