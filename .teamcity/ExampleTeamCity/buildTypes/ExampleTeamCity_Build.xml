@@ -4,6 +4,7 @@
   <description />
   <settings>
     <disabled-settings>
+      <setting-ref ref="Maven2" />
       <setting-ref ref="Maven2_1" />
     </disabled-settings>
     <build-runners>
