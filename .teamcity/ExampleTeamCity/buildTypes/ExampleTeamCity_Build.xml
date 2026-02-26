@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="artifacts/**/*" />
+    </options>
     <disabled-settings>
       <setting-ref ref="Maven2" />
       <setting-ref ref="Maven2_1" />
